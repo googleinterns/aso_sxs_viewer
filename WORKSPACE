@@ -92,3 +92,10 @@ go_repository(
     sum = "h1:NU52wgodY6HxgoAugprm6aBzS04vi7/UE56kAgJp/G4=",
     version = "v0.0.0-20200618214222-4dea1b947a10",
 )
+
+go_repository(
+    name = "org_golang_google_protobuf",
+    importpath = "google.golang.org/protobuf",
+    sum = "h1:Ejskq+SyPohKW+1uil0JJMtmHCgJPJ/qWTxr8qp+R4c=",
+    version = "v1.25.0",
+)
